@@ -33,7 +33,7 @@ server.get("/jobs", (req, res) => {
   //   res.send(jobs);
   // getJobs(tech).then((jobs) => res.send(jobs[0]));
 
-  getJobs(tech).then((jobs) => res.send(jobs[0]));
+  getJobs(tech).then((jobs) => res.send(jobs));
 });
 
 server.get("/", (req, res) => {
