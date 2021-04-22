@@ -5,7 +5,6 @@ const express = require("express");
 const { getJobs } = require("./services");
 
 const server = express();
-const PORT = 3000;
 
 // if(process.env.PORT !== undefined){
 // PORT = process.env.PORT;
